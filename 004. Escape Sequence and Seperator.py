@@ -8,6 +8,9 @@ print("I am \n a good person")
 ## Printing backslash (\)
 print("I am a good boy\\girl") 
 
+## Printing null
+print("I am a good\0boy") #prints 'I am a goodboy'
+
 ## Seperator
 print("Hello", "How", "Are", "You") #default seperator is space
 print("Hello", "How", "Are", "You", sep="~")
