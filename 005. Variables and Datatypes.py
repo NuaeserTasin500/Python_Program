@@ -42,3 +42,18 @@ print(type(h))
 print(type(i))
 print(type(j))
 print(type(k))
+print()
+
+
+# Update the value of variable
+age = 20
+print("Your age is ", age)
+age = 30 #age value 20 is updated as 30
+print("Your age is ", age)
+print()
+
+x = 2
+print("x = ", x)
+x = x + 2 #x value 2 is updated as x + 2 = 2 + 2 = 4
+print("x = ", x)
+print()
