@@ -1,4 +1,4 @@
-## Conditional statements
+## Conditions
 
 # Any condition is boolean and printing condition shows boolean.
 
