@@ -13,6 +13,12 @@ print(list1[2])
 print(list1[-1]) #here list1[-1] = list1[len(list1)-1] = list1[3-1] = list[2]
 print() 
 
+#we can change elements of list by indexing
+list1[0] = 8
+print(list1)
+print() 
+
+
 # List can contain different datatype values
 list2 = [3, 3.5, "Hello", True]
 print(list2)
