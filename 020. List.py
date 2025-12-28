@@ -43,11 +43,14 @@ print(department[:3]) #prints ['CSE', 'EEE', 'ME']
 print(department[::2]) #prints ['CSE', 'ME'], here 2 is jump index like i = i+2in
 print()
 
-#adding elements in list
+#adding/removing elements in list
 list3 = [1, 2, 3, 4]
 print("list3 is = ", list3)
 list3.append(5)
 print("after adding 5, now list3 is = ", list3)
+list3.remove(5)
+print("after removing 5, now list3 is = ", list3)
+print()
 
 #sorting elements in list (ascending order)
 list4 = [11, 100, 5, 45, 33, 50]
@@ -63,21 +66,11 @@ list4.sort(reverse=True)
 print("After sorting list: ", list4)
 print()
 
-#we can store append(), sort() etc method applied lists, which prevents change of original list
-original_list4 = [11, 100, 5, 45, 33, 50]
-add_list4 = original_list4.append(70)
-asc_list4 = original_list4.sort()
-dsc_list4 = original_list4.sort(reverse=True)
-print("Original List = ", original_list4)
-print("Add 70 in this list = ", add_list4)
-print("Ascending order list = ", asc_list4)
-print("Descending order list = ", dsc_list4)
-print()
-
 #mirror elements in list
-list4 = [11, 100, 5, 45, 33, 50]
-mirror_list4 = list4.reverse()  
-print("The mirror of", list4, "is", mirror_list4)
+list4 = [11, 100, 5, 45, 33, 50] 
+print("list4 = ", list4) 
+list4.reverse()
+print("mirror of list4 = ", list4)
 print()
 
 #getting index of any elements
