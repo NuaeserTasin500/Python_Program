@@ -24,6 +24,7 @@ print()
 price = 50.7644850304
 txt14 = f"This product's price is {price:.2f}$" #keeping two numbers after points
 print(txt14)
+print()
 
 # f-string contains function <S>
 def circle_area(r):
