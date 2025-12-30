@@ -33,3 +33,11 @@ def circle_area(r):
 radius = 30
 print(f'if radius of a circle is {radius}, then the area of radius is {circle_area(radius)}')
 
+#function returns f-string <S>
+def mul (x, y):
+    return f'The multiplication of {x} and {y} is {x*y}' #return f-string
+a = 30
+b = 40
+print(mul(a, b))
+print()
+
