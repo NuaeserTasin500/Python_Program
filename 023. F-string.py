@@ -24,3 +24,11 @@ print()
 price = 50.7644850304
 txt14 = f"This product's price is {price:.2f}$" #keeping two numbers after points
 print(txt14)
+
+# f-string contains function <S>
+def circle_area(r):
+    area = 3.1416 * (r**2)
+    return area
+radius = 30
+print(f'if radius of a circle is {radius}, then the area of radius is {circle_area(radius)}')
+
