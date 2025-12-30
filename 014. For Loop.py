@@ -26,3 +26,12 @@ print()
 color = ['Red', 'Green', 'Blue']
 for x in color:
     print(x)
+ print()
+
+
+#for loop with else
+for i in range(6):
+    print(i)
+else:
+    print("Sorry no", i) #prints 'sorry no 5' 
+
