@@ -59,7 +59,7 @@ print()
 
 
 
-# Creating Naive Method Two Dimensional List by multiply 
+# Creating Naive Method Two Dimensional List by for-loop statement
 tdlist1 = [[0 for _ in range(cols)] for _ in range(rows)]
 print(tdlist1) #prints '[[0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0]]'
 tdlist1[0][0] = 1
