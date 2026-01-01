@@ -107,3 +107,19 @@ list_b = [5, 6, 7, 8]
 list_c = list_a + list_b
 print(list_c)
 print()
+
+# Creating Naive Method List by multiply 
+n = 5
+odlist = [0]*n
+print(odlist) #prints '[0, 0, 0, 0, 0]'
+odlist[0] = 1
+print(odlist) #prints '[1, 0, 0, 0, 0]'
+print()
+
+
+# Creating Naive Method Two Dimensional List by for-loop statement
+odlist1 = [0 for _ in range(n)]
+print(odlist1) #prints '[0, 0, 0, 0, 0]'
+odlist1[0] = 1
+print(odlist1) #prints '[1, 0, 0, 0, 0]'
+print()
