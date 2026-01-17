@@ -117,9 +117,16 @@ print(odlist) #prints '[1, 0, 0, 0, 0]'
 print()
 
 
-# Creating Naive Method Two Dimensional List by for-loop statement
+# Creating Naive Method List by for-loop statement
 odlist1 = [0 for _ in range(n)]
 print(odlist1) #prints '[0, 0, 0, 0, 0]'
 odlist1[0] = 1
 print(odlist1) #prints '[1, 0, 0, 0, 0]'
+print()
+
+
+# Sum all elements of a list by sum() function
+list_d = [1, 2, 3, 4, 5]
+sumlist = sum(list_d)
+print(sumlist) #prints '15'
 print()
