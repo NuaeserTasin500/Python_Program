@@ -26,7 +26,7 @@ print()
 color = ['Red', 'Green', 'Blue']
 for x in color:
     print(x)
- print()
+print()
 
 
 #for loop with else
@@ -34,4 +34,9 @@ for i in range(6):
     print(i)
 else:
     print("Sorry no", i) #prints 'sorry no 5' 
+print()
 
+
+# Short form of for loop (used for creating list of consecutive numbers and so on)
+list_e = [x for x in range(5)] #using short form of for loop creates 1, 2, 3, 4, 5 into the list
+print(list_e) #prints '[1, 2, 3, 4, 5]'
