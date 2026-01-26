@@ -12,8 +12,8 @@ a = [1, 2, 3, 4, 5, 6, 7, 8]
 b = list(filter(lambda x: x % 2 == 0, a))
 print(b) #prints '[2, 4, 6, 8]'
 
-# in this filter(lambda x: x % 2 == 0, a), those elements of list 'a' were excluded which returns false in lambda x: x % 2 == 0
-# So this is how 1, 3, 6, 8 were excluded by filter function
+# in this filter(lambda x: x % 2 == 0, a), those elements of list 'a' have been excluded which return False in lambda x: x % 2 == 0
+# So this is how 1, 3, 6, 8 have been excluded by filter function
 
 
 #if we only write filter(lambda x: x % 2 == 0, a) then it will print filter object
