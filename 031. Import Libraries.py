@@ -5,7 +5,7 @@
 import math
 
 result = math.sqrt(9)
-print(result) #prints 3
+print(result) #prints '3.0'
 
 #if you want only sqrt, then we write "from math import sqrt". 
 #Then "result = math.sqrt(9)" will be "result = sqrt(9)"
