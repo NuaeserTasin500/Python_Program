@@ -20,7 +20,9 @@ a = int(input("Enter first number: "))
 print("You first number is", a, end=". ")
 thank_you()
 b = int(input("\nEnter second number: "))
+print("You second number is", a, end=". ")
 thank_you()
+print()
 print(a, "+", b, "=", add(a,b))
 print(a, "*", b, "=", mul(a,b))
 print("multiplying both results =" , mul(mul(a,b), add(a,b)))
@@ -40,3 +42,33 @@ def cheers():
 print(cheers())
 
 #it means you can make function everywhere
+
+
+
+
+# ============================================================================= #
+
+
+
+# Store function's return in a variable
+def double(x):
+    return 2 * x
+
+number1 = double(2) #stored a functional return in a variable
+print(number1) #prints '4'  
+
+number2 = 10
+number3 = double(number2)
+print("The number of", number2, "is", number3) #prints 'The number of 10 is 20'
+print()
+
+
+
+
+# Condition Return Function <S>
+#In Python, if we return condition in function, it will give true or false
+def even(x):
+    return x % 2 == 0
+
+print(even(1)) #prints 'False'
+print(even(10)) #prints 'True'
