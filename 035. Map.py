@@ -1,5 +1,6 @@
 ## map() function
 #In python programming, map() function applies a given function to every elements of an iterable (i.e. list, tuple, etc.) and returns a map object.
+#Syntax is:- map(function, iterable)
 
 #Suppose we have a list a = [1, 2, 3, 4, 5]
 a = [1, 2, 3, 4, 5]
