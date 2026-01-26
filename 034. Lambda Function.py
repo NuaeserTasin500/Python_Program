@@ -51,4 +51,10 @@ print()
 func1 = lambda a_func, value: a_func(value)
 func2 = lambda x: 10*x
 print(func1(func2, 12)) #prints '120'
+print()
 
+
+# Conditional Lambda function
+cond = lambda x: x > 3
+print(cond(3)) #prints 'False'
+print(cond(4)) #prints 'True'
