@@ -9,7 +9,7 @@ information = {
     "Age": 21
 }
 
-print(information) #prints whole dictionary
+print(information) #prints whole dictionary '{'Name': 'John', 'Country': 'United Kingdom', 'Age': 21}'
 print(information["Name"]) #prints 'John'
 print(information["Country"]) #prints 'United Kingdom'
 print(information["Age"]) #prints '21'
@@ -37,12 +37,12 @@ info2 = {
     "Age": 22
 }
 information.update(info2)
-print(information) #prints info2
+print(information) #prints updated information dictionary '{'Name': 'John', 'Country': 'Ireland', 'Age': 22}'
 print()
 
 #clear dictionary
 information.clear()
-print(information) #prints {}
+print(information) #prints '{}'
 print()
 
 
@@ -50,6 +50,10 @@ print()
 info2.pop('Age')
 print(info2) #prints info2 without "Age": 22
 print()
+
+#creating dictionary by dict() function <SAWDT>
+d = dict(name="Kevin", age=46, blood_group='A+ve')
+print(d) #prints '{'name': 'Kevin', 'age': 46, 'blood_group': 'A+ve'}'
 
 
 
