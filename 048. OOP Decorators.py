@@ -1,4 +1,4 @@
-## Decorators
+## OOP Decorators
 #In Python programming, decorators are powerful tool that allow us to modify the behavior of function
 
 def greeting(fx): #greeting is a decorator and fx is a function parameter
