@@ -15,17 +15,18 @@ j = frozenset([1, 2, 3, 5]) #frozenset
 k = range(4) #range
 
 #printing variables' values
-print(a)
-print(b)
-print(c)
-print(d)
-print(e)
-print(f)
-print(g)
-print(h)
-print(i)
-print(j)
-print(k)
+#printing variables' values
+print(a) #prints '123'
+print(b) #prints 'John'
+print(c) #prints '12.3'
+print(d) #prints '(4+8j)'
+print(e) #prints 'True'
+print(f) #prints '[8, 2, 0.3, 'hello']'
+print(g) #prints '(8, 2, 3.5, 'hello')'
+print(h) #prints '{'name': 'John', 'age': '25'}'
+print(i) #prints '{1, 2, 3, 4}'
+print(j) #prints 'frozenset({1, 2, 3, 5})'
+print(k) #prints 'range(0, 4)'
 
 print()
 
@@ -45,10 +46,55 @@ print(type(k)) #prints '<class 'range'>' which means Range Datatype
 print()
 
 
-# Type of type() function <S>
-print("Datatypes of type() function is: ")
-print(type(type(k))) #prints '<class 'type'>' which means Type Datatype
+#only printing datatypes
+print("Here are Datatypes: ")
+print(int) #prints '<class 'int'>' which means Integer Datatype
+print(str) #prints '<class 'str'>' which means String Datatype
+print(float) #prints '<class 'float'>' which means Float Datatype
+print(complex) #prints '<class 'complex'>' which means Complex Datatype
+print(bool) #prints '<class 'bool'>' which means Boolean Datatype
+print(list) #prints '<class 'list'>' which means List Datatype
+print(tuple) #prints '<class 'tuple'>' which means Tuple Datatype
+print(dict) #prints '<class 'dict'>' which means Dictionary Datatype
+print(set) #prints '<class 'set'>' which means Set Datatype
+print(frozenset) #prints '<class 'frozenset'>' which means Frozenset Datatype
+print(range) #prints '<class 'range'>' which means Range Datatype
 print()
+
+#Datatypes like int, str, list are classes in Python.
+#They behave like functions because you can call them to construct objects (e.g., int("123") → 123).
+#But technically, they are classes, not functions.
+
+
+
+# Type of type() function <S>
+#type() is both class and built-in function
+print("Datatypes of type() function is: ")
+print(type(type(k))) #prints '<class 'type'>' which means Type Function
+print(type) #prints '<class 'type'> which means Type Function
+print(type(int)) #still prints '<class 'Type'>
+print()
+
+
+
+#Printing type of built-in functions (without using type) <S>
+print("Here are Built-in functions (without using type): ")
+print(print) #prints '<built-in function print>'
+print(len) #prints '<built-in function len>'
+print(input) #prints '<built-in function input>'
+print(abs) #prints '<built-in function abs>'
+print()
+
+
+
+#Printing type of built-in functions (with using type) <S>
+print("Here are Built-in functions (with using type): ")
+print(type(print)) #prints <class 'builtin_function_or_method'> 
+print(type(len)) #prints <class 'builtin_function_or_method'>
+print(type(input)) #prints <class 'builtin_function_or_method'>
+print(type(abs)) #prints <class 'builtin_function_or_method'> 
+print()
+
 
 
 # Update the value of variable
