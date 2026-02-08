@@ -5,7 +5,7 @@ friend = "Steve"
 print("The friend of", name, "is", friend)
 print()
 
-#new line consumption in string variable
+# new line consumption in string variable
 Poem = '''Twinkle Twinkle, Little Star
 How I wonder what you are!
 Up above the also high
@@ -14,7 +14,7 @@ Like a diamond in the sky
 print(Poem)
 print()
 
-#String's considered as array. So we can print every individual character by using []
+# String's considered as array. So we can print every individual character by using []
 person = "Jason"
 print(person[0]) #first character of string is considered as 0
 print(person[1])
@@ -23,7 +23,7 @@ print(person[3])
 print(person[4])
 print()
 
-#new line also considered as character.
+# new line also considered as character.
 twoperson = '''Jason
 Malik'''
 print(twoperson[4]) #print n
@@ -91,7 +91,27 @@ print()
 
 
 
-#Replacement
+# strip()
+str15 = "   Welcome to the Github   "
+a_str15 = str15.strip()
+print(a_str15) #prints 'Welcome to the Github'
+str16 = "!!!Welcome to the Github!!!"
+a_str16 = str16.strip("!") 
+print(a_str16) #prints 'Welcome to the Github'
+
+
+# lstrip() and rstrip()
+b_str16 = str16.lstrip("!")
+print(b_str16) #prints 'Welcome to the Github!!!'
+c_str16 = str16.rstrip("!") 
+print(c_str16) #!!!Welcome to the Github'
+print()
+
+
+
+
+
+# Replacement
 str2 = "John is a good boy"
 str3 = str2.replace("John", "Sally")
 print(str2) #prints 'John is a good boy'
@@ -99,7 +119,7 @@ print(str3) #prints 'Sally is a good boy'
 print()
 
 
-#Stripping by replacement
+# Stripping by replacement
 str4 = "!!!!!You!!!!!"
 str5 = str4.replace("!", "\0") # \0 means null
 print("Messy string: ", str4)
@@ -108,18 +128,28 @@ print()
 
 
 
-#making string words as list elements by split()
+# making string words as list elements by split()
 sentence3 = "Hello! How are you?"
 list1 = sentence3.split(" ")
-print(list1)
+print(list1) #prints '['Hello!', 'How', 'are', 'you?']'
 print()
+#-
+str13 = "Dhaka;Chittagong;Khulna;Rangpur"
+splitingstring = str13.split(";")
+print(splitingstring) #prints '['Dhaka', 'Chittagong', 'Khulna', 'Rangpur']'
+for i in splitingstring:
+    print(i) #prints 'Dhaka <newline> Chittagong <newline> Khulna
+#-
+str14 = "John-Anna-Gomez-Steve"
+print(str14.split("-")) #prints '['John', 'Anna', 'Gomez', 'Steve']'
 
-#center method
+
+# center method
 sentence4 = sentence3.center(50)
 print(sentence4)
 print()
 
-#startswith and endswith
+# startswith and endswith
 boolean1 = sentence3.endswith("you?")
 boolean2 = sentence3.startswith("Hello!")
 print(boolean1) #prints 'True'
@@ -128,7 +158,7 @@ print()
 
 
 
-#find
+# find
 sentence5 = "Where are you going?"
 idx1 = sentence5.find("are")
 print(idx1) #prints '6' because 'are' word's 'a' is in 6th index
@@ -136,7 +166,7 @@ idx2 = sentence5.find("arehh")
 print(idx2) #prints '-1' because 'arehh' isn't in sentence5 string
 print()
 
-#isalnum()
+# isalnum()
 str6 = "WelcomeToTheGermany"
 str6_bool = str6.isalnum()
 print(str6_bool) #prints 'True'
@@ -145,7 +175,7 @@ str7_bool = str7.isalnum()
 print(str7_bool) #prints 'False' because isalnum() gives 'True' when entire string is based on a-z, A-Z, 0-9
 print()
 
-#isalpha
+# isalpha
 str6_alp = str6.isalpha()
 print(str6_alp) #prints 'True'
 str8 = "WelcomeToTheGermany00"
@@ -153,7 +183,7 @@ str8_alp = str8.isalpha()
 print(str8_alp) #prints 'False' because isalpha() gives 'True' when entire string is based on a-z, A-Z. 
 print()
 
-#isprintable()
+# isprintable()
 str9 = "Welcome to the Java programming"
 str9_bool = str9.isprintable()
 print(str9_bool) #prints 'True'
@@ -162,27 +192,27 @@ str10_bool = str10.isprintable()
 print(str10_bool) #prints 'False' because newline is invisible 
 print()
 
-#isspace()
+# isspace()
 str11 = "    "
 str11_bool = str11.isspace()
 print(str11_bool) #prints 'True'. Only having space or tab will be true
 print()
 
 
-#swapcase()
+# swapcase()
 str12 = "English is an International Language"
 str12_case = str12.swapcase()
 print(str12_case) #prints str12 as uppercase is lowercase; and lowercase is uppercase
 print()
 
 
-#title()
+# title()
 str12 = "french is an european langauge"
 str12_title = str12.title()
 print(str12_title) #prints 'French Is An European Langauge'
 print()
 
-#Chcecking title
+# Chcecking title
 bool_str12 = str12.istitle()
 print(bool_str12) #prints 'False' because str12 is not title
 bool_str12title = str12_title.istitle()
