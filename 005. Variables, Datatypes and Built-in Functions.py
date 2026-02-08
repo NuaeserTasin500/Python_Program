@@ -1,7 +1,7 @@
-## variables and datatypes
-# in python, variable declaration doesn't need data type declaration like other programming languages
+## Variables, Datatypes and Built-in Functions
+#in python, variable declaration doesn't need data type declaration like other programming languages
 
-#declaring variables
+# Declaring variables
 a = 123 #integer
 b = "John" #string
 c = 12.3 #float
@@ -14,8 +14,7 @@ i = {1, 2, 3, 4} #set
 j = frozenset([1, 2, 3, 5]) #frozenset
 k = range(4) #range
 
-#printing variables' values
-#printing variables' values
+# Printing variables' values
 print(a) #prints '123'
 print(b) #prints 'John'
 print(c) #prints '12.3'
@@ -30,7 +29,7 @@ print(k) #prints 'range(0, 4)'
 
 print()
 
-#getting datatypes of variables
+# Getting datatypes of variables
 print("Datatypes of all variables are: ")
 print(type(a)) #prints '<class 'int'>' which means Integer Datatype
 print(type(b)) #prints '<class 'str'>' which means String Datatype
@@ -46,7 +45,7 @@ print(type(k)) #prints '<class 'range'>' which means Range Datatype
 print()
 
 
-#only printing datatypes
+# Only printing datatypes
 print("Here are Datatypes: ")
 print(int) #prints '<class 'int'>' which means Integer Datatype
 print(str) #prints '<class 'str'>' which means String Datatype
@@ -77,7 +76,7 @@ print()
 
 
 
-#Printing type of built-in functions (without using type) <S>
+# Printing type of built-in functions (without using type) <S>
 print("Here are Built-in functions (without using type): ")
 print(print) #prints '<built-in function print>'
 print(len) #prints '<built-in function len>'
@@ -87,7 +86,7 @@ print()
 
 
 
-#Printing type of built-in functions (with using type) <S>
+# Printing type of built-in functions (with using type) <S>
 print("Here are Built-in functions (with using type): ")
 print(type(print)) #prints <class 'builtin_function_or_method'> 
 print(type(len)) #prints <class 'builtin_function_or_method'>
