@@ -1,10 +1,6 @@
 ## Enumerate function
 
-# Enumerate function for list
-country = ["Afghanistan", "Pakistan", "Tajikistan", "Turkmenistan"]
-for index, x in enumerate(country):
-    print(f"{index}. {x}") 
-print()
+
 # Enumerate function for list
 country = ["Afghanistan", "Pakistan", "Tajikistan", "Turkmenistan"]
 for index, x in enumerate(country):
