@@ -322,6 +322,24 @@ a6 = 100
 print(hash(a6)) #prints '100'
 b6 = "hello"
 print(hash(b6)) #prints some number becuase b6 is not an integer
+print()
+
+
+
+# help()
+#it provides interactive documentation about objects, modules, classes, functions, or keywords.
+print(help(list)) #it shows documentation of list
+print()
+
+
+# hex()
+#returns hexadecimal representation
+a = 1234
+b = hex(a)
+print(b) #prints '0x4d2'
+
+
+
 
 
 
