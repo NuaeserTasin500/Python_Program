@@ -25,16 +25,18 @@ print()
 # .bit_count()
 #Number of ones in the binary representation of the absolute value of self. Also known as the population count.
 a4 = 100
+print(bin(100)) #prints '0b1100100' here 1 has 3 times. So bit count is 3 
 bitc = (a4).bit_count()
-print(bitc) #prints '3'
+print(bitc) #prints '3' exactly
 print()
 
 
 
 # .bit_length()
 a5 = 298
+print(bin(a5)) #prints '0b100101010' here are 9 digits after b, so bit length is 9
 bitl = (a5).bit_length()
-print(bitl) #prints '9'
+print(bitl) #prints '9' exactly
 print()
 
 
