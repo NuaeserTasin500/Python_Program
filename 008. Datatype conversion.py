@@ -34,3 +34,14 @@ print(bool("True")) #string to boolean
 print(complex(123)) #integer to complex
 print(str(3+7j)) #complex to string
 #and so on.....
+
+
+print()
+
+
+
+# Exponential number 
+a2 = 3e20
+#if we want to see this big number with zero, we need to convert it as int, since exponential numbers are float
+b2 = int(a2)
+print(b2) #prints '300000000000000000000'
