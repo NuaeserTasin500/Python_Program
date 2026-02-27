@@ -96,6 +96,69 @@ print()
 
 
 
+# Binary, Octal and Hexadecimal numbers
+#In Python programming, Binary, Octal and Hexadecimal numbers are considered as integer numbers
+#for denoting binary, we need to use 0b before binary number
+#for denoting octal, we need to use 0o before octal number
+#for denoting hexadecimal (lowercase), we need to use 0x before hexadecimal number
+#for denoting hexadecimal (uppercase), we need to use 0X before hexadecimal number
+#binary number here will be unsigned (not signed, for example: 1101 will be 13, not -3)
+
+bin_a = 0b1011 #decimal of 0b1011 is 11
+print(bin_a) #prints '11' 
+
+#for printing as negative, we need to use '-' sign
+bin_b = -0b1011 #decimal of -0b1011 is -(11) = -11
+print(bin_b) #prints '-11'
+
+#if we want to print binary number as binary number, we need to use bin() function, but that will be printed as string
+print(bin(bin_a)) #prints '0b1011'
+print(bin(bin_b)) #prints '-0b1011'
+
+#now let's see about octal and hexadecimal number
+oct_a = 0o17 #decimal of 0o17 is 15
+hex_a = 0x1a #decimal of 0x1a is 26
+hex_aa = 0X1A #decimal of 0x1A is 26
+print(oct_a) #prints '15'
+print(hex_a) #prints '26'
+print(hex_aa) #prints '26'
+print()
+#if we want to print octal number as octal number, we need to use oct() function, but that will be printed as string
+print(oct(oct_a)) #prints '0o17'
+
+#if we want to print hexadecimal number as hexadecimal number, we need to use hex() function, but that will be printed as string
+print(hex(hex_a)) #prints '0x1a'
+#for printing uppercase hexadecimal number, we must use format(), not hex()
+#just remember this right now, we will discuss more about format() later 
+print(format(hex_a, '#X')) #prints '0X1A'
+print()
+#remember one thing, 
+#if you store bin(), hex(), oct(), format() in variables, that will be string variables
+#for example: abc = bin(bin_a), here 'abc' will be string variable  
+
+#now we will see how to print the binary, hexadecimal and octal of a decimal number
+dec_a = 30
+print(oct(dec_a)) #prints '0o36'
+print(bin(dec_a)) #prints '0b11110'
+print(hex(dec_a)) #prints '0x1e'
+print(format(dec_a, '#X')) #prints '0X1E'
+print()
+
+
+
+# Exponential numbers
+#Exponential numbers are float numbers. They have 'e', where left side of e is base and right side of e is power
+#Even uppercase 'E' can be used 
+exp_a = 2e20 #means '2 to the power 20' or pow(2, 10)
+exp_b = 3E20 #means '3 to the power 20' or pow(3, 10)
+print(exp_a) #prints '2e+20'
+print(exp_b) #prints '3e+20'
+print()
+
+
+
+
+
 # Update the value of variable
 age = 20
 print("Your age is ", age)
