@@ -159,7 +159,7 @@ print()
 
 
 
-# Update the value of variable
+# Update the value of a variable
 age = 20
 print("Your age is ", age)
 age = 30 #age value 20 is updated as 30
