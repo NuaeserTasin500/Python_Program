@@ -23,10 +23,30 @@ print(e) #prints 'True'
 print(f) #prints '[8, 2, 0.3, 'hello']'
 print(g) #prints '(8, 2, 3.5, 'hello')'
 print(h) #prints '{'name': 'John', 'age': '25'}'
-print(i) #prints '{1, 2, 3, 4}'
+print(i) #prints '{1, 2, 3, 4}' (elements can be shuffled in set)
 print(j) #prints 'frozenset({1, 2, 3, 5})'
 print(k) #prints 'range(0, 4)'
 print()
+
+
+# printing only values (without storing them in variables)
+#Note: Values that are not stored in variables can only be used for printing and execution one time.
+#by storing them in variables, you can use them for future calculations and later reuse
+#
+print(456) #prints '456'
+print("Messi") #prints 'Messi'
+print(12.46) #prints '12.46'
+print((100+44j)) #prints '(100+44j)'
+print(None) #prints 'None'
+print([100, "English", 45.6]) #prints '[100, "English", 45.6]'
+print((110, 456, 230)) #prints '(110, 456, 230)'
+print({"Name":"Steve", "Roll":12}) #prints '{'Name':'Steve', 'Roll':12}'
+print({1, 2, 3, 4}) #prints '{1, 2, 3, 4}' (elements can be shuffled in set)
+print(frozenset([10, 20, 30, 40])) #prints 'frozenset({10, 20, 30, 40})'
+print(range(45)) #prints 'range(0, 45)'
+print()
+
+
 
 # printing string and variable's value together 
 print("The value of c is", c) #prints 'The value of c is 12.3'
