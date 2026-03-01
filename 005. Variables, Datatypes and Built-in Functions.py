@@ -5,7 +5,7 @@
 a = 123 #integer
 b = "John" #string
 c = 12.3 #float
-d = 4+8j #complex
+d = (4+8j) #complex
 e = True #boolean (True, False, None)
 f = [8, 2, 0.3, "hello"] #list
 g = (8, 2, 3.5, "hello") #tuple
@@ -26,7 +26,17 @@ print(h) #prints '{'name': 'John', 'age': '25'}'
 print(i) #prints '{1, 2, 3, 4}'
 print(j) #prints 'frozenset({1, 2, 3, 5})'
 print(k) #prints 'range(0, 4)'
+print()
 
+# printing string and variable's value together 
+print("The value of c is", c) #prints 'The value of c is 12.3'
+print("a =", a) #prints 'a = 123' 
+print(b, "is a good boy") #prints 'John is a good boy'
+print("This", f, "is a list and", g, "is a tuple") #prints 'This [8, 2, 0.3, 'hello'] is a list and (8, 2, 3.5, 'hello') is a tuple'
+#also we can directly print any value (without variable) and string together 
+print("His birth year :", 1920) #prints 'His birth year: 1920'
+print("He has scored", 80, "out of", 100, "in math") #prints 'He has scored 80 out of 100 in math'
+print([10, 20, 30, 40], "is a list") #prints '[10, 20, 30, 40] is a list'
 print()
 
 # Getting datatypes of variables
@@ -42,6 +52,22 @@ print(type(h)) #prints '<class 'dict'>' which means Dictionary Datatype
 print(type(i)) #prints '<class 'set'>' which means Set Datatype
 print(type(j)) #prints '<class 'frozenset'>' which means Frozenset Datatype
 print(type(k)) #prints '<class 'range'>' which means Range Datatype
+print()
+
+
+# Getting datatypes of any values (without variables)
+print("Datatypes of all values are: ")
+print(type(100)) #prints '<class 'int'>' which means Integer Datatype
+print(type("Linda")) #prints '<class 'str'>' which means String Datatype
+print(type(10.905)) #prints '<class 'float'>' which means Float Datatype
+print(type((8+10j))) #prints '<class 'complex'>' which means Complex Datatype
+print(type(False)) #prints '<class 'bool'>' which means Boolean Datatype
+print(type(['Banana', 'Orange', 'Apple'])) #prints '<class 'list'>' which means List Datatype
+print(type((10.6, 29.8))) #prints '<class 'tuple'>' which means Tuple Datatype
+print(type({'Name': 'Asif', 'Dept': 'CSE'})) #prints '<class 'dict'>' which means Dictionary Datatype
+print(type({1, 20, 34, 44})) #prints '<class 'set'>' which means Set Datatype
+print(type(frozenset([1, 2, 3, 4]))) #prints '<class 'frozenset'>' which means Frozenset Datatype
+print(type(range(5))) #prints '<class 'range'>' which means Range Datatype
 print()
 
 
