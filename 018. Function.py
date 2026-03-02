@@ -45,6 +45,17 @@ print(cheers())
 
 
 
+# Pass
+#If we just make a function without any return or printing, then we just use 'pass' keyword
+#We use it when we want to define a function but aren't ready to add logic yet.
+def function111():
+    pass
+function111() #Nothing happens, just we call function111() and it passed
+
+print()
+
+
+
 
 # ============================================================================= #
 
