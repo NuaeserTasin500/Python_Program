@@ -4,7 +4,7 @@
 def thank_you():
     print("Thank you for this proceed.", end=" ")
 
-#declaring function by def and arguments
+#declaring function by def and parameters
 def add(x, y):
     add_result = x + y
     return add_result
