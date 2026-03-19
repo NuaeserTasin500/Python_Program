@@ -1,5 +1,5 @@
 ## OOP Method Overriding
-#In Python programming, Method Overriding is a feature that allows to redefine a method in a derived class.
+#In Python programming, Method Overriding is a feature that allows to redefine a method in a child class.
 
 #Suppose, we want to make classes of 3D objects which will show the volume of them
 #Now a 3D object's volume is normally cubic (length * width * height).
