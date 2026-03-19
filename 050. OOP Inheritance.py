@@ -20,9 +20,9 @@ print()
 #Suppose Steve has scholarship
 #Now we want to add scholarship in student option. But unfortunately we can't. Because student class is used.
 #Changing an used class could affect objects.
-#So we need to create inheritance class as 'scholarship_Student'
+#So we need to create child class as 'scholarship_Student'
 
-#Syntax of inheritance:- class inheritance_classname(parent_classname)
+#Syntax of inheritance:- class child_classname(parent_classname)
 #Student is a parent class
 
 class scholarship_Student(Student):
