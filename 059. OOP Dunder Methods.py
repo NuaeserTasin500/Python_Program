@@ -25,6 +25,9 @@ class Student:
 
 student1 = Student("John", 34, 3.75)
 print(len(student1)) #prints '4' which is the length of John name
-print(student1) #prints 'The name of the student is {self.name}' as __str__ 
-print(str(student1)) #still prints 'The name of the student is {self.name}'
+print(student1) #prints 'The name of the student is John' as __str__ 
+print(str(student1)) #still prints 'The name of the student is John'
 print(repr(student1)) #prints 'John's roll is 34'
+
+
+#So we have known that if we create an object and print that object, then __str__ part will be printed defaultly. (We should remember this)
