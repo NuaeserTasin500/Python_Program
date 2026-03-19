@@ -1,6 +1,12 @@
 ## OOP Method Overriding
 #In Python programming, Method Overriding is a feature that allows to redefine a method in a child class.
 
+#In OOP inheritance, we have learned that we can push student's important info to a parent class "Student" (name, roll, cgpa) etc and use child class "scholarship_Student" for updating scholarship to that student
+#But in reality, we need to push important info to a child class where parent class remains as "Root".
+#For example, sphere, cube, cylinder are 3D shape figures. Here '3D shape figure' is a parent or root status, where sphere, cube, cylinder are child or inherited status.
+#And when we push details of sphere, cube, cylinder - we won't use parent status, rather we will use child status
+#In this case, we need to use Method overriding by using super(). 
+
 #Suppose, we want to make classes of 3D objects which will show the volume of them
 #Now a 3D object's volume is normally cubic (length * width * height).
 #So shape's default thing will be length * width * height
