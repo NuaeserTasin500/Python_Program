@@ -38,4 +38,4 @@ student2.showDetalis()
 student2.scholarship("Full-Free")
 student2.showScholar()
 
-#Here scholarship_Student is an inherited class
+#Here scholarship_Student is an child class which is inherited by Student class
