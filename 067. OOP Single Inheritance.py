@@ -1,4 +1,4 @@
-## OOP Single Inheritance
+## OOP Single Inheritance and Hierarchical Inheritance
 
 #Single Inheritance is as same as we have learned in 'OOP Inheritance' chapter 
 #Syntax of single inheritance:- class child_classname(parent_classname)
@@ -32,7 +32,15 @@ class Cat(Animal):
     def __str__(self):
         return f"Name: {self.pet_name}\n{super().info()}" 
     
+#let's create a cat object
+luna = Cat("Luna")
+print(luna) #Name: Luna <newline> Species_name: Cat <newline> Legs: 4 <newline> Sound: Meow
 
+#this is called single inheritance. 
+#Single inheritance means one parent class has one child class
+#Here one parent class "Animal" has one child class "Cat"
+
+#Now let's make another child class "Dog"
 #Dog is a child class of Animal here
 class Dog(Animal):
     species_name = "Dog"
@@ -54,6 +62,11 @@ print(tom) #prints 'Name: Tom <newline> Species_name: Cat <newline> Legs: 4 <new
 print(bella) #prints 'Name: Tom <newline> Species_name: Cat <newline> Legs: 4 <newline> Sound: Meow'
 print(spike) #prints 'Name: Spike <newline> Species_name: Dog <newline> Legs: 4 <newline> Sound: Woof'
 print(max) #prints 'Name: Max <newline> Species_name: Dog <newline> Legs: 4 <newline> Sound: Woof'
+
+#This is called Hierarchical inheritance
+#Hierarchical inheritance means one parent class has multiple child classes
+#Here one parent class "Animal" has two child classes "Cat" and "Dog"
+
 
 #Here parent class 'Animal' works as root of dogs and cats, and we don't need to use this parent class directly.
 
